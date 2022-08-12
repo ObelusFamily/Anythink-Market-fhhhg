@@ -121,7 +121,7 @@ class Editor extends React.Component {
                       className="form-control"
                       type="text"
                       placeholder="Image url"
-                      value='placeholder.png'
+                      value={this.props.image}
                       onChange={this.changeImage}
                     />
                   </fieldset>
